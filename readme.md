@@ -1,6 +1,8 @@
 # htpasswd generator
 
-Generates a htaccess + htpasswd access protection
+This is a generator, to create htaccess + htpasswd access protection.
+
+Only one user is supported.
 
 ![example](example.png?raw=true)
 
@@ -8,4 +10,9 @@ Generates a htaccess + htpasswd access protection
 
 * download ``htpasswdgen.php``
 * copy to your target directory
-* run ``htpasswdgen.php`` in your browser
+* open ``htpasswdgen.php`` in your browser
+
+## Notes
+
+* after pressing "Generate", the protection will be generated and is active
+* the generator overrides existing ``.htaccess`` and ``.htpasswd`` files
